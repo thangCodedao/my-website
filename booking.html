@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Đặt Lịch Hẹn Nha Khoa</title>
+    <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+
+<header>
+    <h1>Đặt Lịch Hẹn</h1>
+    <p>Nha Khoa [Tên Phòng Khám]</p>
+</header>
+
+<div class="container">
+    <h2 class="form-title">Form Đặt Lịch</h2>
+
+    <form action="#" method="POST">
+        <label>Họ và tên</label>
+        <input type="text" name="fullname" placeholder="Nhập họ tên của bạn" required>
+
+        <label>Số điện thoại</label>
+        <input type="tel" name="phone" placeholder="Ví dụ: 0987 123 456" required>
+
+        <label>Email</label>
+        <input type="email" name="email" placeholder="Nhập email (nếu có)">
+
+        <label>Chọn dịch vụ</label>
+        <select name="service" required>
+            <option value="">-- Chọn dịch vụ --</option>
+            <option>Khám & tư vấn</option>
+            <option>Cạo vôi - đánh bóng</option>
+            <option>Tẩy trắng răng</option>
+            <option>Trám răng thẩm mỹ</option>
+            <option>Điều trị tủy</option>
+            <option>Niềng răng - Chỉnh nha</option>
+            <option>Bọc răng sứ</option>
+            <option>Trồng răng Implant</option>
+            <option>Nha khoa trẻ em</option>
+        </select>
+
+        <label>Ngày hẹn</label>
+        <input type="date" name="date" required>
+
+        <label>Giờ hẹn</label>
+        <input type="time" name="time" required>
+
+        <label>Ghi chú thêm</label>
+        <textarea name="note" rows="4" placeholder="Ví dụ: đau răng hàm trên, muốn kiểm tra tổng quát..."></textarea>
+
+        <button type="submit">Gửi yêu cầu đặt lịch</button>
+    </form>
+</div>
+
+<footer>
+    <p>Nha Khoa [Tên Phòng Khám] – Chăm sóc nụ cười của bạn</p>
+</footer>
+
+</body>
+</html>
