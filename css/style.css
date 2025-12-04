@@ -188,3 +188,98 @@ button:hover {
 .bottom-text a {
     color: #005bbb;
 }
+
+/* ========== CSS CHUNG ========== */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background: #f5f5f5;
+    color: #333;
+}
+
+header {
+    background: #1e88e5;
+    padding: 20px;
+    text-align: center;
+    color: #fff;
+}
+
+h1 {
+    margin: 0;
+}
+
+.container {
+    width: 90%;
+    max-width: 900px;
+    margin: auto;
+    padding: 20px;
+    background: #fff;
+    margin-top: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #ccc;
+}
+
+/* ========== CSS TRANG GIỚI THIỆU DỊCH VỤ ========== */
+.service {
+    margin-bottom: 30px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #ddd;
+}
+
+h2 {
+    color: #1e88e5;
+}
+
+/* ========== CSS FORM ĐẶT LỊCH HẸN ========== */
+.form-title {
+    text-align: center;
+    color: #1e88e5;
+    margin-bottom: 10px;
+}
+
+/* Label */
+label {
+    display: block;
+    margin-top: 15px;
+    font-weight: bold;
+}
+
+/* Input, select, textarea */
+input, select, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Textarea */
+textarea {
+    resize: vertical;
+}
+
+/* Nút gửi form */
+button {
+    margin-top: 20px;
+    width: 100%;
+    padding: 12px;
+    background: #1e88e5;
+    border: none;
+    color: #fff;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #1565c0;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 15px 0;
+    margin-top: 30px;
+    background: #1e88e5;
+    color: #fff;
+}
